@@ -6,8 +6,7 @@ def find_largest_number(num1, num2, num3):
 
 # Streamlit app
 def app():
-    st.title("Find the Largest Number")
-    st.write("Enter three numbers and find the largest among them.")
+    st.title("Find the largest number among the three entered")
 
     num1 = st.number_input("Enter Number 1", step=1)
     num2 = st.number_input("Enter Number 2", step=1)
