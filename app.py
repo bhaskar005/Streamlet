@@ -18,5 +18,5 @@ def app():
         st.success(f"The largest number is: {largest_num}")
 
 # Run the Streamlit app
-if _name_ == "_main_":
+if __name__ == "__main__":
     app()
